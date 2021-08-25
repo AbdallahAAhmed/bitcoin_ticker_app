@@ -35,7 +35,7 @@ class _PriceScreenState extends State<PriceScreen> {
       onChanged: (value) {
         setState(() {
           if(value != null) {
-            selectedCurrency = value;
+            selectedCurrency = value ;
             getBitcoinData();
           }
         });
